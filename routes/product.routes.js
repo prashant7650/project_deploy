@@ -13,6 +13,8 @@ try{
     res.send(error)
 }
    
+
+
 })
 productRouter.post("/create", async (req, res) => {
     const payload = req.body
